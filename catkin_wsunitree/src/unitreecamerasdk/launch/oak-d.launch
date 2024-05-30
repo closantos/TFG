@@ -1,0 +1,3 @@
+<launch>
+    <node name="depth_and_color_publisher" pkg="unitreecamerasdk" type="oak-d.py" output="screen"/>
+</launch>
