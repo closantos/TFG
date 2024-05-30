@@ -32,8 +32,7 @@ def guardar_favoritos():
 
 def obtener_coordenadas_desde_texto(texto):
     # Clave de API de Google Maps
-    api_key = 'AIzaSyDkYGAvkhTYGkoyqwIhW05pJHd5KtMTzqQ'
-
+    api_key = ----APIKEY----
     # Crear un cliente de Google Maps
     gmaps = googlemaps.Client(key=api_key)
 
@@ -49,7 +48,7 @@ def obtener_coordenadas_desde_texto(texto):
 
 def obtener_ruta(origen, destino):
     # Clave de API de Google Maps
-    api_key = 'AIzaSyDkYGAvkhTYGkoyqwIhW05pJHd5KtMTzqQ'
+    _key = '----KEY----'
 
     # Crear un cliente de Google Maps
     gmaps = googlemaps.Client(key=api_key)
